@@ -1,10 +1,7 @@
 package LinnkedList;
 
 public class singley_2 {
-	
-
-	
-		private Node head;
+	    private Node head;
 		private Node tail;
 		private int size;
 
