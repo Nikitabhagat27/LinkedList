@@ -1,4 +1,4 @@
-package LinnkedList;
+  package LinnkedList;
 
 public class SingleyLinkedList {
 
@@ -18,7 +18,7 @@ public class SingleyLinkedList {
 		 *     b. Traverse to the last node(while loop)
 		 *     c.assign new node to temp.next(temp.next = node;)
 		 * T.C O(n)    
-		 * 
+		 *  
 		 */
 		public void addLast(int data) {
 			Node node = new Node(data, null);

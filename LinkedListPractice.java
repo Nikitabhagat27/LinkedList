@@ -1,6 +1,6 @@
 package LinnkedList;
 
-public class LinkedList_1 {
+public class LinkedListPractice {
 	public static class Node{
 		int data;
 		Node next;
@@ -58,6 +58,9 @@ public class LinkedList_1 {
 			}
 		System.out.println("null");
 	}
+	 
+	//add in the ,middle concept 
+	
 	public void add(int index, int data) {
 		//add  head 
 		if(index==0) {
@@ -84,7 +87,7 @@ public class LinkedList_1 {
 			return Integer.MIN_VALUE;
 			
 		}else if(size==1) {
-			int val=head.data;
+			int val=head.data; 
 			head=tail=null;
 			size=0;
 			return val;
@@ -98,7 +101,7 @@ public class LinkedList_1 {
 	if(size == 0) {
 		System.out.println( "ll is empty");
 		return Integer.MIN_VALUE;
-		
+		  
 	}else if(size == 1) {
 		int val = head.data;
 		head = tail =null;
@@ -188,7 +191,7 @@ public class LinkedList_1 {
     	return;
     }
     public static void main(String[] args) {
-	LinkedList_1  ll =new  LinkedList_1 ();//object node create krne ke liye
+    	LinkedListPractice  ll =new  LinkedListPractice ();//object node create krne ke liye
 	//ll.print();
 	ll.addFirst(2);
 	//ll.print();
@@ -197,6 +200,9 @@ public class LinkedList_1 {
 	ll.addLast(4);
 	//ll.print();
 	ll.addLast(5);
+	ll.addLast(6);
+	ll.addLast(7);
+	ll.addLast(8);
 	//ll.print();
 	ll.add(2, 3);
 	ll.print();
